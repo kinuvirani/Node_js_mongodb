@@ -19,10 +19,9 @@ MongoClient.connect('mongodb://localhost:27017/student',(err,db)=>{
     });
 
     db.collection("user").insertOne({
-        name:"Kiran",
-        age:21,
-        location:"Bhavnagar",
-        _id:1
+        name:"Jyoti",
+        age:22,
+        location:"Delhi"
     },(err,result)=>
   {
       if(err)
